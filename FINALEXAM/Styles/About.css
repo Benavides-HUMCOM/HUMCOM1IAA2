@@ -7,10 +7,10 @@
 .img{
   position: relative;
   /* padding: 15px; */
-  text-align: center;
+  /* text-align: center; */
   width: 100%;  
   height: 1000px;
-  background: url('IMG/About.jpeg') no-repeat;
+  background: url('IMG/about-alt.jpg') no-repeat;
   background-size: 100%;
 }
 
@@ -21,6 +21,7 @@ body {
   }
   
   .topnav {
+    text-align: center;
     overflow: hidden;
     border-bottom: 0.5pt black solid;
     height: 80px;
@@ -37,31 +38,63 @@ body {
   }
   
   .topnav a:hover {
-    background-color: #b5aba9;
+    background-color: #e6d1b4 ;
     opacity: 0.8;
-    color: #0e0a00;
+    color: #25262b;
   }
   
   .topnav a.active {
-    background-color: #0e0a00;
-    opacity: 0.8;
-    color: #b5aba9;
+    background-color: #25262b;
+    color: #e6d1b4;
   }
 /*Nav*/
 
-main{
-    position: relative;
-    text-align: center;
-    width: 100%;
+.main{
+  background-color: rgba(37, 38, 43, 0.8); 
+  border: 1pt black solid; 
+  margin-top: 7%;
+  width: 100%;
+  padding-top: 0px;
+  height: 585px;
+  font-size: 140%;
+  color: #e6d1b4;
 }
 
-.mainArticle{
-    margin-top: 8%;
-    width: 100%;
-    padding: 15px;
-    color: #fcffff;
-    height: 300px;
-    border: 2pt black solid;
-    font-size: 350%;
+.main-article{
+  margin-top: 0%; /* Move text vertically */
+  margin-right: 1%;
+  float: right;
+  width: 65%;
+  height: 0%;
+}
+
+.photo-wrapper{
+  margin-top: 9%; 
+  position: absolute;
+  clear: right;
+  float: left;
+  padding-left: 150px;  
+  padding-right: 150px; 
+  width: 30%;
+  height: 0%; 
+}
+
+.photo-me{
+  border-radius: 50%;
+  width: 300px;
+}
+
+a{
+  color: #e6d1b4;
+}
+
+
+footer{
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  padding-top: 35px;
+  padding-left: 78%;
+  color: #e6d1b4;
 }
 
