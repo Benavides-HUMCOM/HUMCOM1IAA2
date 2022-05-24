@@ -1,0 +1,293 @@
+* {
+  box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body{
+    background-color: #202020;
+
+}
+
+.header-container{
+    /* background-color: rgb(201, 201, 201);
+    border: 1px black solid; */
+    padding: 10px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.head1{
+    float: left;
+    background-color: rgb(243, 243, 243);
+    border: 1px black solid;
+    width: 49.5%;
+    height: 100%;
+}
+
+.head2{
+    float: right;
+    background-color: rgb(243, 243, 243);
+    border: 1px black solid;
+    width: 49.5%;
+    height: 100%;
+}
+
+main{
+    background-color: rgb(243, 243, 243);
+    border: 1px black solid;
+    padding: 10px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.article-container{
+    /* background-color: rgb(201, 201, 201);
+    border: 1px black solid; */
+    padding: 10px;
+    padding-left: 20px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.art1{
+    float: left;
+    background-color: rgb(243, 243, 243);
+    border: 1px black solid;
+    width: 32.5%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.art2{
+    float: left;
+    background-color: rgb(243, 243, 243);
+    border: 1px black solid;
+    width: 32.5%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.art3{
+    float: left;
+    background-color: rgb(243, 243, 243);
+    border: 1px black solid;
+    width: 32.5%;
+    height: 100%;
+}
+
+.foot-container{
+    /* background-color: rgb(201, 201, 201);
+    border: 1px black solid; */
+    padding: 10px;
+    padding-left: 20px;
+    height: 130px;
+}
+
+.foot1{
+    float: left;
+    background-color: rgb(243, 243, 243);
+    border: 1px black solid;
+    width: 24.3%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.foot2{
+    float: left;
+    background-color: rgb(243, 243, 243);
+    border: 1px black solid;
+    width: 24.3%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.foot3{
+    float: left;
+    background-color: rgb(243, 243, 243);
+    border: 1px black solid;
+    width: 24.3%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.foot4{
+    float: left;
+    background-color: rgb(243, 243, 243);
+    border: 1px black solid;
+    width: 24.3%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .header-container{
+        /* background-color: rgb(201, 201, 201);
+        border: 1px black solid; */
+        padding: 5px;
+        padding-bottom: 10px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    
+    .head1{
+        float: none;
+        background-color: rgb(243, 243, 243);
+        border: 1px black solid;
+        width: 100%;
+        height: 50%;
+        margin-bottom: 5px;
+    }
+    
+    .head2{
+        float: none;
+        background-color: rgb(243, 243, 243);
+        border: 1px black solid;
+        width: 100%;
+        height: 50%;
+    }
+
+    main{
+        background-color: rgb(243, 243, 243);
+        border: 1px black solid;
+        padding: 10px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .article-container{
+        /* background-color: rgb(201, 201, 201);
+        border: 1px black solid; */
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 500px;
+    }
+
+    .art1{
+        clear: left;
+        background-color: rgb(243, 243, 243);
+        border: 1px black solid;
+        width: 100%;
+        height: 32%;
+    }
+
+    .art2{
+        clear: left;
+        background-color: rgb(243, 243, 243);
+        border: 1px black solid;
+        width: 100%;
+        height:  32%;
+        margin-top: 10px;
+    }
+    
+    .art3{
+        clear: left;
+        background-color: rgb(243, 243, 243);
+        border: 1px black solid;
+        width: 100%;
+        height:  32%;
+        margin-top: 10px;
+    }
+
+    .foot-container{
+        /* background-color: rgb(201, 201, 201);
+        border: 1px black solid; */
+        padding: 10px;
+        padding-top: 5px;
+        padding-left: 20px;
+        height: 230px;
+    }
+
+    .foot1{
+        float: left;
+        background-color: rgb(243, 243, 243);
+        border: 1px black solid;
+        width: 48.5%;
+        height: 48%;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    
+    .foot2{
+        float: left;
+        background-color: rgb(243, 243, 243);
+        border: 1px black solid;
+        width: 48.5%;
+        height: 48%;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    
+    .foot3{
+        clear: left;
+        background-color: rgb(243, 243, 243);
+        border: 1px black solid;
+        width: 48.5%;
+        height: 48%;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    
+    .foot4{
+        float: left;
+        background-color: rgb(243, 243, 243);
+        border: 1px black solid;
+        width: 48.5%;
+        height: 48%;
+        margin-top: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .foot-container{
+        /* background-color: rgb(201, 201, 201);
+        border: 1px black solid; */
+        padding: 10px;
+        padding-top: 5px;
+        height: 1030px;
+    }
+
+    .foot1{
+        float: none;
+        background-color: rgb(243, 243, 243);
+        border: 1px black solid;
+        width: 100%;
+        height: 24.5%;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    
+    .foot2{
+        float: none;
+        background-color: rgb(243, 243, 243);
+        border: 1px black solid;
+        width: 100%;
+        height: 24.5%;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    
+    .foot3{
+        float: none;
+        background-color: rgb(243, 243, 243);
+        border: 1px black solid;
+        width: 100%;
+        height: 24.5%;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    
+    .foot4{
+        float: none;
+        background-color: rgb(243, 243, 243);
+        border: 1px black solid;
+        width: 100%;
+        height: 24.5%;
+        margin-top: 5px;
+    }
+  }
